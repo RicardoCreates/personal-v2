@@ -254,7 +254,7 @@ label[for="toggle_button"] {
 }
 #intro-section .bg {
   z-index: 0;
-  background-image: url(../assets/img/synth.png);
+  background-image: url(../assets/img/intro-bg.jpg);
 }
 .intro-body {
   width: 100%;
