@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ricardo | Web-Dev</title>
+    <link rel="shortcut icon" href="" />
+    <meta name="description" content="Portfolio Website from Ricardo" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <script src="nav.js" defer></script>
+  </head>
+  <body>
+    <!--navigation-->
+    <div class="mobileNav">
+      <input type="checkbox" id="toggle_button" />
+      <label id="navIcon" for="toggle_button">
+        <span id="menuIconMobile">
+          <img src="assets/icons/menu_icon.png" alt="menu Icon"
+        /></span>
+      </label>
+      <ul class="header_nav">
+        <li><a class="headerLink" href="#intro-section">Home</a></li>
+        <li><a class="headerLink" href="#about-section">About</a></li>
+        <li><a class="headerLink" href="#skills-section">Skills</a></li>
+        <li><a class="headerLink" href="#career-section">Experience</a></li>
+        <li><a class="headerLink" href="#portfolio-section">Portfolio</a></li>
+        <li><a class="headerLink" href="#contact-section">Contact</a></li>
+      </ul>
+    </div>
+    <nav class="nav-container">
+      <ul>
+        <li>
+          <a class="menu-list" href="#intro-section">
+            <img
+              id="icon-home"
+              class="menu-icon icon-home"
+              src="assets/icons/home.svg"
+              alt="home-icon"
+            />
+            <span id="text-home" class="menu-text icon-home">Home</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu-list" href="#about-section">
+            <img
+              id="icon-person"
+              class="menu-icon icon-person"
+              src="assets/icons/person.svg"
+              alt="person-icon"
+            />
+            <span id="text-person" class="menu-text">Person</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu-list" href="#skills-section">
+            <img
+              id="icon-school"
+              class="menu-icon"
+              src="assets/icons/school.svg"
+              alt="school-icon"
+            />
+            <span id="text-school" class="menu-text">Skills</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu-list" href="#career-section">
+            <img
+              id="icon-work"
+              class="menu-icon"
+              src="assets/icons/work.svg"
+              alt="work-icon"
+            />
+            <span id="text-work" class="menu-text">Experience</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu-list" href="#portfolio-section">
+            <img
+              id="icon-web"
+              class="menu-icon"
+              src="assets/icons/web.svg"
+              alt="Portfolio-icon"
+            />
+            <span id="text-web" class="menu-text">Portfolio</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu-list" href="#contact-section">
+            <img
+              id="icon-email"
+              class="menu-icon"
+              src="assets/icons/email2.svg"
+              alt="contact-icon"
+            />
+            <span id="text-email" class="menu-text">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--intro-->
+    <section id="intro-section" class="section scroll-section" data-icon="home">
+      <div class="bg"></div>
+      <div class="intro-body">
+        <div class="intro-contet">
+          <h1 class="heading">Ricardo</h1>
+          <span class="divider-header"></span>
+          <h2 class="subtext">FRONT END SOFTWARE ENGINEER</h2>
+        </div>
+      </div>
+      <a href="#about-section"
+        ><img class="mous-icon" src="assets/icons/mouse.svg" alt="mous-icon"
+      /></a>
+    </section>
+    <!--about me-->
+    <section
+      id="about-section"
+      class="section scroll-section"
+      data-icon="person"
+    >
+      <div class="section-wrapper">
+        <h1 class="section-heading">Hi, I'm Ricardo</h1>
+        <h2 class="section-subheading">
+          I am a detail-oriented software developer who is passionate about
+          combining beautiful code with beautiful design.
+        </h2>
+        <span class="divider"></span>
+        <div>
+          <img
+            class="headshot"
+            src="assets/img/photo-ricardo.png"
+            alt="Profile Photo"
+          />
+          <div class="about-text-wrapper">
+            <p class="about-text">
+              <strong>My name is Ricardo,</strong> I started my career as
+              web-developer in January 2024 with neuefische. I did a bootcamp
+              for coding and learned how to code html, css, javascript, react
+              and NextJS. At first we started with two projects, that stayed
+              along with the 12 weeks of the bootcamp. Project 1 was to build
+              our own personal-website Project 2 was to build our own Quiz App
+              scroll down to find out more ->
+            </p>
+            <p class="about-text">
+              I am always eager to learn new and better ways of writing more
+              efficient and clean code. Additionally, I highly value
+              collaborating with others to share and expand knowledge. My
+              primary goal is to create something beautiful and innovative in
+              collaboration with others.
+            </p>
+            <p class="about-text">
+              if( <strong>I'm not in front of a computer screen,</strong> ){ I
+              enjoy travelling with friends and getting to know new ....}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--skills-->
+    <section
+      id="skills-section"
+      class="section scroll-section"
+      data-icon="school"
+    >
+      <div class="section-wrapper">
+        <h1 class="section-heading">Skills</h1>
+        <span class="divider"></span>
+        <div class="skills-flex-wrapper">
+          <div class="dev-wrapper">
+            <h2 class="skills-heading-dev">
+              <span class="sprite-dev sprite"></span>DEVELOPMENT
+            </h2>
+            <ul class="dev-list">
+              <li class="dev-item">JavaScript</li>
+              <li class="dev-item">HTML5</li>
+              <li class="dev-item">CSS3</li>
+              <li class="dev-item">Node.js</li>
+              <li class="dev-item">React</li>
+              <li class="dev-item">NextJS</li>
+            </ul>
+          </div>
+          <div class="tool-knowledge-wrapper">
+            <div class="tool-wrapper">
+              <h2 class="skills-heading">
+                <span class="sprite-tools sprite"></span>TOOLS
+              </h2>
+              <ul class="list">
+                <li class="tool-item">
+                  <img src="assets/icons/checkmark.svg" alt="checkmark icon" />
+                  Git + Github
+                </li>
+                <li class="tool-item">
+                  <img src="assets/icons/checkmark.svg" alt="checkmark icon" />
+                  Command Line
+                </li>
+                <li class="tool-item">
+                  <img src="assets/icons/checkmark.svg" alt="checkmark icon" />
+                  Postman
+                </li>
+                <li class="tool-item">
+                  <img src="assets/icons/checkmark.svg" alt="checkmark icon" />
+                  Mozilla DevTools
+                </li>
+              </ul>
+            </div>
+            <div class="knowledge-wrapper">
+              <h2 class="skills-heading">
+                <span class="sprite-knowledge sprite"></span>KNOWLEDGE
+              </h2>
+              <ul class="list">
+                <li>
+                  <img src="assets/icons/checkmark.svg" alt="checkmark" />
+                  ECMAScript 6
+                </li>
+                <li>
+                  <img src="assets/icons/checkmark.svg" alt="checkmark" /> SEO
+                </li>
+                <li>
+                  <img src="assets/icons/checkmark.svg" alt="checkmark" />
+                  Usability
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--career history-->
+    <section
+      id="career-section"
+      class="section scroll-section"
+      data-icon="work"
+    >
+      <div class="section-wrapper">
+        <h1 class="section-heading">Experience</h1>
+        <span class="divider"></span>
+        <div class="timeline-container">
+          <div class="timeline"></div>
+          <div class="career-container left-container wait0">
+            <div class="career-img-bg">
+              <img
+                class="career-img"
+                src="assets/icons/school.svg"
+                alt="school Icon"
+              />
+            </div>
+            <div class="career-box career-box-left">
+              <h2>Education</h2>
+              <small>2015 - 2017</small>
+              <p>
+                From 2015 - 2017 I did my Education as a IT Systems Sales
+                Representative @Fachin & Friedrich. There I learned everthing
+                about IT.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div class="career-container right-container wait1">
+            <div class="career-img-bg right-container-img">
+              <img
+                class="career-img"
+                src="assets/icons/work.svg"
+                alt="work Icon"
+              />
+            </div>
+            <div class="career-box career-box-right">
+              <h2>Teleperformance Germany S. à r. l. & Co. KG</h2>
+              <small>2017 - 2021</small>
+              <p>
+                I worked 4 years with Teleperformance. First as Account Manger
+                for Google Ads Accounts. After that I was in the Apple Customer
+                Chat Support. Then I went back to Google Ads Account Manager.
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
+          </div>
+          <div class="career-container left-container">
+            <div class="career-img-bg">
+              <img
+                class="career-img"
+                src="assets/icons/work.svg"
+                alt="work Icon"
+              />
+            </div>
+            <div class="career-box career-box-left">
+              <h2>AUTO1 Group</h2>
+              <small>2022 - 2023</small>
+              <p>
+                Account Manager || Tasks: Building and maintaining strong,
+                long-lasting customer relationships. Managing customer accounts,
+                including contract negotiations to maximize outcomes.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div class="career-container right-container">
+            <div class="career-img-bg right-container-img">
+              <img
+                class="career-img"
+                src="assets/icons/work.svg"
+                alt="work Icon"
+              />
+            </div>
+            <div class="career-box career-box-right">
+              <h2>evoyo GmbH</h2>
+              <small>2023 - Present</small>
+              <p>
+                Account Manager || Tasks: Building and maintaining strong,
+                long-lasting customer relationships. Managing customer accounts,
+                including contract negotiations to maximize outcomes.
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
+          </div>
+          <div class="career-container left-container">
+            <div class="career-img-bg">
+              <img
+                class="career-img"
+                src="assets/icons/school.svg"
+                alt="school Icon"
+              />
+            </div>
+            <div class="career-box career-box-left">
+              <h2>Education</h2>
+              <small>2024</small>
+              <p>
+                In January 2024, I started my further training as a web
+                developer at neuefische. There I expanded my existing knowledge
+                in HTML, CSS, JavaScript as well as React and Node.js.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--portfolio-->
+    <section
+      id="portfolio-section"
+      class="section scroll-section"
+      data-icon="web"
+    >
+      <div class="section-wrapper">
+        <div>
+          <h1 class="section-heading">Portfolio</h1>
+          <span class="divider"></span>
+          <p>
+            This is a part of my previous projects, including my first portfolio
+            website but also my Quiz App and the Stranger Plants App witch was
+            my Capstone Project.
+          </p>
+          <div class="projects">
+            <div>
+              <h2 class="project-title">Portfolio Website</h2>
+              <img
+                class="project-img"
+                src="assets/img/portfolio.png"
+                alt="Portfolio website preview"
+              />
+              <p class="project-description">
+                This is my portfolio website on which I present myself. To
+                create the website I used HTML, CSS and some JavaScript. There
+                is not much to say, just make your own impression of the site.
+              </p>
+              <span class="divider"></span>
+            </div>
+            <div>
+              <h2 class="project-title">Quiz App</h2>
+              <img
+                class="project-img"
+                src="assets/img/quiz-app.png"
+                alt="statera website preview"
+              />
+              <p class="project-description">
+                This was my first project at neuefische. Its not impressive, but
+                it works 😊
+                <a
+                  class="project-link"
+                  href="https://quiz-app-two-gilt.vercel.app/"
+                  target="_blank"
+                  >link to website</a
+                >.
+              </p>
+              <span class="divider"></span>
+            </div>
+            <div>
+              <h2 class="project-title">Capstone Project Stranger Plants</h2>
+              <img
+                class="project-img"
+                src="assets/img/capstone.png"
+                alt="2048-Clone  website preview"
+              />
+              <p class="project-description">
+                Stranger Plants is my capstone porject. The you can find a list
+                of plants, create your own plants, set your own plants to
+                myPlants site, you have a watering and a ferilizing plan,
+                weather integration and a calender.
+                <a
+                  class="project-link"
+                  href="https://capstone-plant-care.vercel.app/"
+                  target="_blank"
+                  >link to website</a
+                >.
+              </p>
+              <span class="divider"></span>
+            </div>
+            <div>
+              <h2 class="project-title">More coming soon</h2>
+              <img
+                class="project-img"
+                src="assets/img/coming-soon.jpg"
+                alt="Pokedex  website preview"
+              />
+              <p class="project-description">
+                Placeholder for more projects
+                <a class="project-link" href="" target="_blank"
+                  >link to website</a
+                >.
+              </p>
+              <span class="divider"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--more projects-->
+    <a
+      class="btn-block"
+      href="https://github.com/Alphawave1989"
+      target="_blank"
+    >
+      <span class="info-text">See more projects</span>
+      <img class="info-img" src="assets/icons/github.svg" alt="github Icon" />
+    </a>
+    <!--contact-->
+    <section
+      id="contact-section"
+      class="section scroll-section"
+      data-icon="email"
+    >
+      <div class="section-wrapper-contact">
+        <h1 class="section-heading">Get in Touch</h1>
+        <span class="divider"></span>
+        <p>Feel free to send me a message!</p>
+        <a
+          class="contact-icon"
+          href="mailto:ricardo.lemser@gmail.com"
+          target="_blank"
+        >
+          <img src="assets/icons/email.svg" alt="email Icon" />
+        </a>
+
+        <br />
+        <br />
+        <br />
+        <!---
+                <div>
+                    <form id="contactForm" action="">
+                        <div>
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="name" required="">
+                        </div>
+                        <div>
+                            <label for="email">E-Mail</label>
+                            <input id="email" type="text" name="email" required="">
+                        </div>
+                        <div>
+                            <label for="subject">Subject</label>
+                            <input id="subject" type="text" name="subject" required="">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <input id="message" type="text" name="message" required="">
+                        </div>
+                        <button type="submit" name="submit">Send Message
+                        </button>
+                    </form>
+                </div>
+            -->
+      </div>
+    </section>
+    <!--footer-->
+    <footer id="footer" class="section">
+      <div class="center-center">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a
+              class="footer-icon email"
+              href="mailto:ricardo.lemser@gmail.com"
+              target="_blank"
+              title="email"
+            >
+              <img src="assets/icons/email.svg" alt="email Icon" />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer-icon instagram"
+              href="https://www.instagram.com/relativ_green/"
+              target="_blank"
+              title="instagram"
+            >
+              <img src="assets/icons/instagram.svg" alt="instagram Icon" />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer-icon github"
+              href="https://github.com/Alphawave1989"
+              target="_blank"
+              title="github"
+            >
+              <img src="assets/icons/github.svg" alt="github Icon" />
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer-icon linkedin"
+              href="https://www.linkedin.com/in/ricardo-lemser-32a219168/"
+              target="_blank"
+              title="linkedin"
+            >
+              <img src="assets/icons/linkedin.svg" alt="linkedin Icon" />
+            </a>
+          </li>
+        </ul>
+        <div class="copyright-wrapper">
+          <p class="center">© Ricardo 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
