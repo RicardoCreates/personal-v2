@@ -254,7 +254,7 @@ label[for="toggle_button"] {
 }
 #intro-section .bg {
   z-index: 0;
-  background-image: url(../assets/img/intro-bg.jpg);
+  background-image: url(../assets/img/dallE.png);
 }
 .intro-body {
   width: 100%;
@@ -274,6 +274,7 @@ label[for="toggle_button"] {
 }
 .heading {
   font-size: 5rem;
+  color: black;
   position: relative;
   padding-bottom: 10px;
   opacity: 0;
@@ -286,6 +287,7 @@ label[for="toggle_button"] {
 }
 .subtext {
   display: inline-block;
+  color: black;
   padding: 16px 0;
   font-size: 1.3rem;
   line-height: 1.5;
@@ -303,7 +305,8 @@ label[for="toggle_button"] {
   width: 450px;
   height: 6px;
   border-radius: 3px;
-  background-color: var(--text-color);
+  /* background-color: var(--text-color); */
+  background-color: black;
   opacity: 0;
   animation: entry1;
   animation-duration: 1s;
@@ -572,7 +575,7 @@ label[for="toggle_button"] {
   background-color: #2d7e67;
   box-sizing: border-box;
   overflow: initial;
-  background-image: url(../assets/img/career-bg.jpeg);
+  background-image: url(../assets/img/forest4k.webp);
   vertical-align: text-bottom;
 
   background-position: center center;
